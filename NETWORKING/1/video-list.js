@@ -6,7 +6,7 @@ let allVideos = [
    },
   
      {
-      name: "Welcome.mp4",
+      name: "Good news!.mp4",
       src: "uc?id=17rxbclkrevp3dgiLfT5Na-stZx35EGue",
       id: "vid_1"
    },
