@@ -5,10 +5,10 @@ let allVideos = [
       id: "vid_1"
    },
   
-   {
-      name: "Good news!.mp4",
+     {
+      name: "Welcome.mp4",
       src: "uc?id=17rxbclkrevp3dgiLfT5Na-stZx35EGue",
-      id: "vid_2"
+      id: "vid_1"
    },
    {
       name: "Packet Tracer Download.pdf",
