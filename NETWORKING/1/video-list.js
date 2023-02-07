@@ -6,48 +6,18 @@ let allVideos = [
    },
   
    {
-      name: "Button Hover Effect",
-      src: "Button Hover Effect Using Html And CSS",
+      name: "Good news!.mp4",
+      src: "uc?id=17rxbclkrevp3dgiLfT5Na-stZx35EGue",
       id: "vid_2"
    },
    {
-      name: "Confirm Password using Html CSS & js",
-      src: "Confirm Password using Html CSS & js",
+      name: "Packet Tracer Download.pdf",
+      src: "uc?id=1w0ZBPXimPSvCNSnhHKNx9cYaCUP0sfBz",
       id: "vid_3"
    },
    {
-      name: "Creative Card Hover Effect",
-      src: "Creative Card Hover Effect ",
+      name: "Thank you and Menu",
+      src: "uc?id=1c9_5IM9Dqc-KEabdgwvkkx1jLQLpPTis",
       id: "vid_4"
-   },
-   {
-      name: "Creative Digital Clock Ui Design",
-      src: "Creative Digital Clock Ui Design - Html Css & Vanilla Javascript-1",
-      id: "vid_5"
-   },
-   {
-      name: "Creative Our Team Section",
-      src: "Creative Our Team Section Using HTML & CSS Neumorphism",
-      id: "vid_6"
-   },
-   {
-      name: "Filter Text Animation Using Html and CSS",
-      src: "Filter Text Animation Using Htm and Pure CSS",
-      id: "vid_7"
-   },
-   {
-      name: "Glassmorphism Calculater New Design",
-      src: "Glassmorphism Calculater New Design Html",
-      id: "vid_8"
-   },
-   {
-      name: "How To  Make Cheatsheet",
-      src: "How To  Make Cheatsheet Using Html, CSS and Javascript",
-      id: "vid_9"
-   },
-   {
-      name: "How to create Login Form",
-      src: "How to create Login Form Using Html and CSS",
-      id: "vid_10"
    }
-]
+   ]
