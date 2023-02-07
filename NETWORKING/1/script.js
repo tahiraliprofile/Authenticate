@@ -30,7 +30,7 @@ for(let i = 0; i < allVideos.length; i++){
       <div class="row">
          <span>${i + 1}. ${allVideos[i].name}</span>
       </div>
-      <video class="${allVideos[i].id}" src="media/${allVideos[i].src}.mp4" style="display: none;" title="${allVideos[i].name}"></video>
+      <video class="${allVideos[i].id}" src="https://drive.google.com/${allVideos[i].src}" style="display: none;" title="${allVideos[i].name}"></video>
       <span id="${allVideos[i].id}" class="duration"></span>
    </li>`;
    playlist.insertAdjacentHTML('beforeend',liTag); 
