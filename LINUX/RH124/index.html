@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-<html oncontextmenu="return false">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>RHCSA EX-200 | RH124</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RHCSA Course - RH124</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <section>
-        <h2 class="title"></h2>
-        <div class="container">
-            <div id="video_player">
-                <video controls id="main-Video" src=""></video>
-            </div>
-            <div class="playlistBx">
-                <div class="header">
-                    <div class="row">
-                        <span class="AllLessons"></span>
-                    </div>
-                    <input type="text" name="" id="searchInput" placeholder="Type Something ...."> 
-                </div>
-                <ul class="playlist" id="playlist">
-                </ul>
-            </div>
-        </div>
-    </section>
-    <script src="./video-list.js"></script>
-    <script src="./script.js"></script>
-    
-    <script>
-        const searchInput = document.getElementById("searchInput");  
-        searchInput.addEventListener("input", function() {
-          const searchValue = searchInput.value.toLowerCase();
-          for (const li of playlist.children) {
-            const span = li.querySelector("span");
-            const spanText = span.textContent;
-            const spanTextLower = spanText.toLowerCase();
-            const startIndex = spanTextLower.indexOf(searchValue);
-            if (startIndex === -1) {
-              li.style.display = "none";
-            } else {
-              li.style.display = "";
-              span.innerHTML =
-                spanText.slice(0, startIndex) +
-                "<mark>" +
-                spanText.slice(startIndex, startIndex + searchValue.length) +
-                "</mark>" +
-                spanText.slice(startIndex + searchValue.length);
-            }
-          }
-        });
-        
-    </script>
+   
+<div class="container">
+
+   <div class="main-video-container">
+      <video src="" loop controls class="main-video"></video>
+      <h3 class="main-vid-title">house flood animation</h3>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+         <video src="https://drive.google.com/uc?id=1DH-anGhWEfZrp5_iBTjMb9xJymPdrZ4M
+" class="list-video"></video>
+         <h3 class="list-title">Welcome to RH124 Module</h3>
+      </div>
+
+      <div class="list">
+         <video src="https://drive.google.com/uc?id=1_32JySTxMNGXkmzQuGLNZHEXlsYn0BMJ" class="list-video"></video>
+         <h3 class="list-title">Get started with Red Hat Enterprise Linux</h3>
+      </div>
+
+      <div class="list">
+         <video src="https://drive.google.com/uc?id=1ivyF-fXBk8mgTdF4VuCMvcMIUpGRk7V6" class="list-video"></video>
+         <h3 class="list-title">Access the command line</h3>
+      </div>
+
+      <div class="list">
+         <video src="https://drive.google.com/uc?id=1lgRB21JpCRhFPes1o5H05yzBeQyuvPuF" class="list-video"></video>
+         <h3 class="list-title">Manage files from command line</h3>
+      </div>
+
+      <div class="list">
+         <video src="https://drive.google.com/uc?id=1auOBhc88tRPNto8OZaM5vuylEhiJgvd_" class="list-video"></video>
+         <h3 class="list-title">Get help in Red Hat Enterprise Linux</h3>
+      </div>
+
+     
+
+   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 
 </body>
 </html>
